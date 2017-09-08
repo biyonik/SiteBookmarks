@@ -1,7 +1,7 @@
 // Formun gönderilip gönderilmediği dinleniyor
 document.getElementById("myForm").addEventListener('submit',saveBookmark);
 
-// Kısayolu kaydeder
+// Bookmark kaydeder
 function saveBookmark(e){
     // Form değerleri alınıyor
     var siteName = document.getElementById("siteName").value;
