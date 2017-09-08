@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmark Application</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body onload="fetchBookmarks()">
+   <div class="container">
+       <div class="header clearfix">
+           <nav>
+               
+           </nav>
+           <h3 class="text-muted">Bookmark App</h3>
+       </div>
+       <div class="jumbotron">
+           <h2>Favori Sitelerinizi Kaydedin</h2>
+           <form action="" id="myForm">
+               <div class="form-group">
+                   <label for="">Site Adı</label>
+                   <input type="text" class="form-control" id="siteName" placeholder="Site adını giriniz" />
+               </div>
+               <div class="form-group">
+                   <label for="">Site Adresi</label>
+                   <input type="text" class="form-control" id="siteUrl" placeholder="Site adresi giriniz" />
+               </div>
+               <button type="submit" class="btn btn-primary">Gönder</button>
+           </form>
+       </div>
+       
+       <div class="row">
+           <div class="col-lg-12">
+               <div id="bookmarksResult"></div>
+           </div>
+       </div>
+       
+       <footer class="footer">
+           <p>&copy; 2017 Bookmark App</p>
+       </footer>
+   </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
